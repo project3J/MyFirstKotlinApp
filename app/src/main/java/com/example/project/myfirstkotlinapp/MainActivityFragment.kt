@@ -15,4 +15,13 @@ class MainActivityFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_main, container, false)
     }
+
+
+    //TODO: push new changes to new branch directly
+    override fun onPause() {
+        super.onPause()
+    }
+
+
+
 }
